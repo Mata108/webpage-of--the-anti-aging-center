@@ -1,0 +1,771 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box!important;
+ 
+ 
+}
+
+html,body{
+  background-color: rgba(255, 254, 251, 1);
+  width: 100%;
+  height: 100%;
+}
+
+
+.mainmaxwidth{
+  /* max-width: 1200px!important; */
+  min-width:350px!important;
+}
+
+.mainbc{
+  background: conic-gradient(from 167.38deg at 68.82% 50%, #ECE2D0 0deg, #F2DDD8 90deg, #F2DDD7 180deg, #F3DCD2 232.8deg, #ECE2D0 360deg);
+
+  
+}
+.mainbuttonpadding{
+  padding: 1vw 4vw;
+}
+
+.mainpositionset{
+  position: absolute;
+  top: 18vw;
+  left: 5vw;
+  right: 0;
+  margin: auto;
+  transform: translateY(-50%);
+}
+.mleft{
+  margin-left: 0vw;
+}
+
+.textd{
+  font-family: 'monospce';
+   word-spacing: 2px;
+   font-size: 1.75vw;
+   color: rgba(96, 66, 67, 1);
+   font-weight: bold ;
+}
+
+.textd2{
+  font-family: 'cursive';
+  color: rgba(182, 85, 88, 1);
+  /* font-family:'Courier New', Courier, monospace ; */
+  font-style: italic;
+}
+
+/* .mainposition3{
+  float: right;
+  position: relative;
+  left: 5vw;
+  bottom: 0;
+} */
+.mainposition4{
+ position: absolute;
+ left: 24vw;
+ right: 0vw;
+
+  
+}
+.mainimgsize{
+  width: 37vw;
+}
+
+.logosize{
+  width: 18vw;
+height: 44vh;
+
+
+}
+.wtspcing{
+  word-spacing: 2px;
+  font-size: 20px;
+}
+.buttonbc{
+  background-color: rgba(182, 85, 88, 1)!important;
+}
+.ht{
+  height: 70vh!important;
+}
+ .txt2{
+  color: rgba(182, 85, 88, 1);
+  font-style: italic;
+  font-size: 4rem;
+ }
+.word-spacing{
+  /* word-spacing: 0.3rem; */
+  font-size: 20px;
+  font-weight:1000;
+}
+.txtcolour{
+  color:rgba(96, 66, 67, 1);
+  font-size: 1.5rem;
+}
+
+.img{
+  width: 50vw;
+  height: 100%;
+}
+
+.bc{
+  background-image: url('../image/Rectangle67.png');
+  background-size: cover; /* or use 'contain' depending on your needs */
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+   .fs{
+     
+    font-size: 5vw;
+    
+   }
+   .writ3{
+    font-family:"URW Chancery L, cursive"!important;
+    color: rgba(162, 103, 105, 1);
+    font-style: italic;
+  }
+
+
+  .item8{
+    font-family: "inter";
+    color: rgba(68, 68, 68, 1);
+    text-align: justify;
+    font-size: 1.5vw;
+    font-weight: 400;
+    line-height: 2vw;
+  }
+
+  .item9{
+    max-width: 100%;
+    height: 35vh;
+    width: 100%;
+    background-image: url("../image/Frame8.png");
+    background-size:cover;
+    background-position:right ;
+      
+  }
+  .item9a{
+    max-width: 100%;
+    height: 35vh;
+    width: 100%;
+    background-image: url("../image/Frame10.png");
+    background-size:cover;
+    background-position:center ;
+      
+  }
+  .item9b{
+    max-width: 100%;
+    height: 35vh;
+    width: 100%;
+    background-image: url("../image/Frame11.png");
+    background-size:cover;
+    background-position:bottom ;
+      
+  }
+
+
+  .item9fontsize{
+    font-size: 1.2vw;
+    font-family: 'Akkurat-Light';
+  }
+  .item9fontsize2{
+    font-size: 1vw;
+    font-family: 'Akkurat-Light';
+  }
+  .fs1{
+    font-size: 1.5vw;
+    font-family: 'monospace';
+    text-decoration: none;
+    font-weight: 1000;
+  }
+  .item9 img {
+    max-width: 100%;
+    height: auto;
+}
+ 
+
+/* .fs2{
+  font-size:45px;
+} */
+
+.item12{
+  
+  background-color: rgba(255, 249, 247, 1);
+  
+  
+}
+.writ4{
+padding-left: 13%;
+padding-right: 18%;
+word-spacing: 2px;
+font-family: "FreeMono, monospace";
+font-size: 18px;
+font-weight: 400;
+line-height: 29px;
+
+text-align: justify;
+}
+
+
+.item13bcimg{
+  background-image: url("../image/Vector73.png");
+  /* background-size: cover; */
+  /* or use 'contain' depending on your needs */
+ /* background-position:calc(50% + 20px) calc(50% - 10px);; */
+ background-position: center;
+ background-repeat: no-repeat;
+ 
+}
+
+.item13{
+  position: relative;
+}
+/* 
+.item13 img{
+ min-width: 315px;
+ max-width: 1300px;
+ height: 100%;
+}  */
+.item13img{
+ 
+  position: relative;
+  left: 10%;
+}
+
+.writ5{
+  font-family:"URW Chancery L, cursive"!important;
+      color: rgba(162, 103, 105, 1);
+      font-style: normal;
+}
+
+.item14{
+  position: relative;
+}
+.item14img{
+  position: relative;
+   
+}
+.item14f{
+  
+}
+.item14border{
+  border: 2px solid rgba(243, 220, 210, 1);
+  border-radius: 15px;
+}
+/* .item14img2{
+  
+  position: relative;
+  /* top: 34px; */
+  /* bottom: 41px;
+  left: 30%;
+  
+  border: 2px solid rgba(243, 220, 210, 1);
+  border-radius: 15px; */
+/* } */ 
+.item14img1{
+  
+  position: relative;
+  left: 8vw;
+  bottom: 7rem;
+}
+
+.imgposition1{
+  position: absolute!important;
+  right: 15%!important;
+  top:0%!important;
+}
+.imgposition{
+  position: relative!important;
+  
+}
+
+
+
+.fsa{
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: rgba(68, 68, 68, 1);
+}
+
+
+.writ6{
+ 
+  position: absolute;
+  left:10%;
+  top:15vw;
+}
+.writ7{
+ 
+  position: absolute;
+  top: 26vw;
+  /* bottom: 10vw; */
+  left: 63%;
+}
+
+
+
+
+.t{
+  position: relative;
+  top: 20%;;
+}
+
+/* 
+.writ3 {
+  font-size: 2rem;
+} */
+.writ4 {
+  font-size: 1.15rem;
+}
+.fs2 {
+  font-size: 4rem;
+}
+
+.writ8{
+  background-color: rgba(191, 181, 175, 1);
+  height: 80px!important;
+  width: 80px!important
+  
+  
+}
+
+.displayb1{
+  display: none;
+}
+/* 
+@media (max-width: 576px) {
+  .item9fontsize {
+      font-size: 0.875rem;
+  }
+  .item9fontsize2 {
+      font-size: 0.75rem;
+  }
+  .fs1 {
+      font-size: 1rem;
+  }
+
+  .item13img{
+    width: 315px!important;
+    height: 315px;
+    height: 100%;
+    position: relative;
+    left: 10%;
+  }
+}
+@media (max-width: 800px) {
+
+
+  .item13img{
+    width: 400px!important;
+    height: 500px;
+    /* height: 100%; */
+    /* position: relative; */
+    /* left: 10%; */
+  /* }
+} */ 
+
+
+
+.item16{
+  background-color: rgba(247, 242, 239, 1);
+  border-radius: 15px;
+
+}
+
+/*item18  */
+
+.writ10{
+  font-size: 19px;
+  font-family: 'monospace';
+  line-height: 25px;
+  /* font-family: "inter"; */
+  color: rgba(68, 68, 68, 1);
+  text-align: justify;
+}
+.writ11{
+  font-family:"URW Chancery L, cursive"!important;
+      color: rgba(162, 103, 105, 1);
+      font-style: italic;
+      font-size: 54px;
+}
+
+.item17img{
+  position: relative;
+}
+.item17img1{
+  width: 300px;
+  height: 350px;
+  border-radius: 10px 0px 0px 0px;
+  position: absolute;
+  top:5%;
+  left:10%
+}
+.item17img2{
+  width: 350px;
+  height: 350px;
+  border-radius: 10px 0px 0px 0px;
+  position: absolute;
+  /* top: 20%!important; */
+  left:25%;
+bottom: 20%;
+}
+
+.partitionbc1{
+  background-color: rgba(242, 221, 216, 1);
+}
+.partitionbc2{
+  background-color: rgba(236, 226, 208, 1);
+}
+.partitionbc3{
+  background-color: rgba(228, 222, 219, 1);
+}
+.partitionbc4{
+  background-color: rgba(243, 220, 210, 1);
+}
+
+/*item18  */
+
+
+
+.item19{
+  background-color: rgba(255, 249, 247, 1);
+  
+  
+}
+.item19img{
+  width: 24px;
+height: 24px;
+
+
+}
+
+
+.fsb{
+  font-size: 64px;
+}
+
+.item20{
+  background-color: rgba(247, 242, 239, 1);
+
+}
+
+.item20font{
+  font-size: 54px;
+}
+
+.justifytext{
+  text-align: justify;
+}
+
+.item22{
+  
+  background-image: url("../image/Rectangle433(3).png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 60rem;
+}
+
+
+.item22writ{
+  font-family: "Akkurat-Italic";
+  color: rgba(68, 68, 68, 1);
+  font-style: italic;
+  font-size: 20px;
+}
+.item22writ2{
+  font-family: "Akkurat";
+  color: rgba(96, 66, 67, 1);
+  /* font-style: italic; */
+  font-size: 3vw;
+  line-height: 72px;
+}
+
+.item22writ3{
+  font-family: "Akkurat";
+  color:  rgba(162, 103, 105, 1);
+  font-style: italic;
+}
+
+
+.item22color{
+  background-color: rgba(182, 85, 88, 1);
+  
+   /* color: rgba(182, 85, 88, 1); */
+}
+.item22padding{
+  padding-left: 4.5rem !important;
+  padding-right: 4.5rem !important;
+  padding-top: 1.5rem !important;
+    padding-bottom: 1.5rem !important;
+}
+
+.item23{
+ 
+  width: 55.083vw;
+  background-image: url("../image/Rectangle434(3).png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 15px ;
+  /* height: 180px; */
+
+}
+.item22writ4{
+  font-family: "inter";
+  color: rgba(68, 68, 68, 1);
+  text-align: justify;
+  font-size: 1.25vw;
+  font-weight: 400;
+  line-height: 1.5vw;
+}
+
+.item22positionset{
+  position: relative;
+}
+.item22positionset1{
+  position: absolute;
+  top: 95%;
+  left: 15%;
+}
+
+.item24{
+  margin-top: 10vw;
+  padding-left: 6vw!important;
+  padding-right: 6vw!important;
+}
+
+.item24wh{
+  width: 90%;
+  
+}
+.item24width0{
+  width: 100%;
+}
+.item24width{
+  width: 70%;
+  height: 50%;
+
+}
+.item24width1{
+  width: 30%;
+  height: 50%;
+
+}
+
+.footerbc{
+  background-color: rgba(162, 103, 105, 1);
+   margin-top:10vw;
+    padding:6vw 0;
+  width: 100%;
+  
+}
+.mtop{
+  margin-top: 5vw!important;
+}
+
+.fonttext{
+  font-size: 20px;
+  font-weight: 400;
+  /* font-family: ; */
+  color: rgba(255, 255, 255, 1);
+}
+
+.textspacing{
+  word-spacing: 2px;
+  line-height: 40px;
+}
+
+
+.buttonbccolor{
+ background-color: rgba(250, 241, 241, 1);
+}
+.textcolor{
+  color:  rgba(162, 103, 105, 1);
+}
+
+
+hr{
+  height:2px ;
+  border: none;
+  background-color:rgba(255, 255, 255, 1) ;
+  opacity: 1!important;
+
+}
+
+@media(max-width:1024px){
+  .item22writ4{
+    font-family: "inter";
+    color: rgba(68, 68, 68, 1);
+    text-align: justify;
+    font-size: 1.5vw;
+    font-weight: 400;
+    line-height: 1.5vw;
+  }
+  
+}
+
+
+@media(max-width:800px){
+  html,body{
+    background-color: rgba(255, 254, 251, 1);
+    width: 100%;
+    height: 100%;
+
+  }
+  .mp{
+    padding-left:7px;
+    padding-right:7px;
+  }
+
+  .logosize{
+    width: 30vw;
+  height: 50vh;
+  
+  
+  }
+
+  .textd{
+    font-family: 'monospce';
+     word-spacing: 2px;
+     font-size: 1rem;
+     color: rgba(96, 66, 67, 1);
+     font-weight: bold ;
+  }
+ .fs{
+  font-size:10vw;
+  text-align: center;
+ }
+
+
+ 
+ .item8{
+  font-family: "inter";
+  color: rgba(68, 68, 68, 1);
+  text-align: justify;
+  font-size: 2.5vw;
+  font-weight: 400;
+  line-height: 4vw;
+}
+
+.item9fontsize{
+  font-size: 3vw;
+  font-family: 'Akkurat-Light';
+}
+.item9fontsize2{
+  font-size: 2.5vw;
+  font-family: 'Akkurat-Light';
+}
+
+.mainbuttonpadding{
+  padding: 3vw 12vw !important;
+}
+.mainmaxwidth{
+  /* max-width: 1200px!important; */
+  min-width:90vw!important;
+}
+.fs1{
+  font-size: 4vw;
+  font-family: 'monospace';
+  
+}
+.item12{
+  
+  background-color: rgba(255, 249, 247, 1);
+  display: none;
+  
+}
+
+.item14img1{
+  
+  position: relative;
+ 
+  left: 21vw;
+  /* top: -83px; */
+  bottom: 29vw;
+}
+  
+
+
+.fsa{
+  font-size: 1rem;
+  font-weight: 400;
+  color: rgba(68, 68, 68, 1);
+}
+.item14f{
+  display: flex;
+  flex-direction: column;
+   align-items: center;
+
+    
+
+}
+.displayb{
+  display: none;
+}
+.displayb1{
+  display:block ;
+}
+.fsb{
+  font-size: 48px;
+}
+.justifytext{
+  text-align: justify;
+}
+
+
+.item22writ{
+  font-family: "Akkurat-Italic";
+  color: rgba(68, 68, 68, 1);
+  font-style: italic;
+  font-size: 20px;
+}
+.item22writ2{
+  font-family: "Akkurat";
+  color: rgba(96, 66, 67, 1);
+  /* font-style: italic; */
+  font-size: 6vw;
+  line-height: 11vw;
+}
+
+.item22writ4{
+  font-family: "inter";
+  color: rgba(68, 68, 68, 1);
+  text-align: justify;
+  font-size: 4.5vw;
+  font-weight: 400;
+  line-height: 5vw;
+}
+
+.item22padding{
+  padding-left: 2.5rem !important;
+  padding-right: 2.5rem !important;
+  padding-top: 1.25rem !important;
+    padding-bottom: 1.25rem !important;
+}
+.footerbc{
+  background-color: rgba(162, 103, 105, 1);
+   margin-top:10vw;
+   margin: 2px 7px;;
+  width: 100%;
+  height: auto;
+}
+.textfont{
+   font-size: 14px;
+ 
+}
+.fonttext1{
+  font-size: 13px;
+ color:rgba(255, 255, 255, 1);
+ font-family: 'inter';
+}
+}
+
+
+
+
+
+
+
